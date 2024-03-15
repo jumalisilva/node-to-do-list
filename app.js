@@ -5,7 +5,7 @@ const taskRouter = require('./routes/taskRouters');
 
 app.use(express.json());
 
-app.use('/tarefa', taskRouter);
+app.use('/tarefas', taskRouter);
 
 // Início - Criando rotas
 app.get('/', (req, res) => {
